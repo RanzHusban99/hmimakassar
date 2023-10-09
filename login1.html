@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <link rel="stylesheet" href="assets/css/styles5.css">
+  <title>HMI | Makassar - Login</title>
+  <link rel="icon" href="assets/img/HMI.png" type="image/x-icon">
+</head>
+<body>
+  <section>
+    <div class="form-box">
+      <div class="form-value">
+        <!-- Tag pembuka form seharusnya dimulai di sini -->
+        <form action="proses_login.php" method="POST">
+          <h2>Login</h2>
+          <div class="inputbox">
+            <ion-icon name="person-outline"></ion-icon>
+            <input type="text" name="username" required>
+            <label for="username">Username</label>
+          </div>
+          <div class="inputbox">
+            <ion-icon name="lock-closed-outline"></ion-icon>
+            <input type="password" name="password" required>
+            <label for="password">Kata Sandi</label>
+          </div>
+          <button type="submit">Masuk</button>
+          <div class="register">
+            <p>Belum punya akun? <a href="login1.html">Daftar</a></p>
+          </div>
+        </form> <!-- Tag penutup form seharusnya di sini -->
+      </div>
+    </div>
+  </section>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
